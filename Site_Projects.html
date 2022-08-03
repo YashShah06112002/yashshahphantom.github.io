@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        :root{
+            background-color: cornflowerblue;
+        }
+
+        a{
+                color:white;
+                text-decoration: none;
+            }
+
+        nav li{
+                margin:0 20px;
+                transition: font-size 1s;
+            }
+
+        nav li:hover{
+            font-size:127%;
+                
+            }
+
+        section{
+                font-family:'Cambria';
+                text-align:center;
+                font-weight:lighter;
+                color:cornflowerblue;
+                background-color: black;
+                margin: 0px 0;
+                padding: 10px;
+                font-size:28px; 
+            }
+
+        .customize_layout{
+            background-color: rgb(30, 50, 50);
+        }
+
+        article{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        article:nth-child(2n){   
+            display: flex;
+            flex-flow: row wrap-reverse;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        
+
+    </style>
+    </head>
+    <nav style="color:white; font-size:111%; margin: 30px;">
+        <ul style="list-style: none; display:flex;justify-content:center">
+            <li><a href="Site_About_Me.html">ABOUT ME</a></li>
+            <li><a href="Site_Projects.html">PROJECTS</a></li>
+            <li><a href="Site_Contact_Me.html">CONTACT ME</a></li>
+        </ul>
+    </nav>
+
+    <header style="font-size:75px;color:white;text-align:center;margin-left: 0px; margin-top: 45px;">
+        MY PROJECTS
+    </header>
+
+    <article>
+    <section>
+        <img src="https://wallpaperaccess.com/full/4420936.jpg" width="450px" height="380px"> 
+    </section>
+
+    <section style="text-align:center;">
+        <u>PROJECT GREEN CORRIDOR</u>
+        <br>
+        <small style="font-size:20px;">Oct 2021</small>
+        <br><br>
+        <p style="width:auto; max-width: 1012px; font-size:20px;text-align:left;margin-top: 40px;">
+            • This was an individual project taken up by me as a part of learning basics of GIS. 
+            <br>
+            • The project contains a static map of a selected region wherein all the roads were carefully 
+              digitized from the available satellite imagery and were assigned an average traffic density.
+            <br>
+            • This was followed by locating premier hospitals in the region.
+            <br>
+            • The project was made using ArcMap 10.2 keeping in mind to come out with the quickest path 
+              connecting two hospitals and to curb the loss of lives due to vehicular traffic.
+        </p>
+    </section>
+    </article>
+
+    <article>
+    <section class="customize_layout" style="flex-flow: row wrap-reverse;">
+        <u>TRAVELLING SALESMAN PROBLEM</u>
+        <br>
+        <small style="font-size: 20px;">Mar 22 - May 22</small>
+        <br><br>
+        <p style="width:auto; max-width: 1012px; font-size:20px;text-align:left;margin-top: 40px;">
+            • This was a group project which consisted of four members including myself.<br>
+            • Our goal was to ask the user to enter the cities he wishes to visit along with the distances between 
+            them and then our project would simulate the Travelling Salesman Problem and show the shortest 
+            possible path covering all the cities.<br>
+            • The project was made using Python especially with the help of Tkinter library.
+        
+        </p>
+    </section>
+
+    <section class="customize_layout">
+        <img src="https://media.istockphoto.com/vectors/business-decision-modern-businessman-standing-in-front-of-signpost-vector-id1227007210?k=20&m=1227007210&s=612x612&w=0&h=_--WE1zsnv85b7iUKmpxnvi2uEwQyomX9dwSYhoICJo=" width="450px" height="380px">
+    </section>
+
+
+    </article>
+
+    
+    <body>
+
+    </body>
+</html>

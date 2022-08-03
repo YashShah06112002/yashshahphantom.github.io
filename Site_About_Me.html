@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            a{
+                color:white;
+                text-decoration: none;
+            }
+
+            nav li{
+                margin:0 20px;
+                transition: font-size 1s;
+            }
+
+            nav li:hover{
+                font-size:127%;
+                
+            }
+
+
+            div:nth-child(2){
+                font-family:'Cambria';
+                text-align:center;
+                font-weight: bold;
+                color:cornflowerblue;
+                background-color: black;
+                padding-top: 25px;
+                margin-top: 30px;
+                 
+            }
+
+            section{
+                font-family:'Cambria';
+                text-align:center;
+                font-weight:lighter;
+                color:cornflowerblue;
+                background-color: black;
+                padding: 10px;
+                font-size:28px;
+            
+            }
+
+            .fade_in_text{
+                animation: fadeIn 3s;
+            }
+
+            @keyframes fadeIn{
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+
+            :root{
+                background-color: cornflowerblue;
+                
+            }
+
+            
+            div p{
+                color: rgb(255, 255, 255); 
+                font-size: 25px; 
+                text-align:center;  
+                margin: 40px 0;      
+            }
+
+            .element_container{
+                
+                padding: 0 110px 0 110px;
+            }
+
+            article{
+                display:flex;
+                justify-content: space-evenly;
+                flex-flow:row wrap;
+                gap:30px;
+            }
+           
+            
+
+            table, th, td {
+            border:1px solid cornflowerblue;
+            font-size: medium;
+            padding:15px;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: 0;
+            }
+            
+            tr>td{
+                font-style: italic;
+            }
+
+            
+            
+        </style>
+
+    </head>
+
+    <body>
+        <nav style="color:white; font-size:111%; margin: 30px;">
+            <ul style="list-style: none; display:flex;justify-content:center">
+                <li><a href="Site_About_Me.html">ABOUT ME</a></li>
+                <li><a href="Site_Projects.html">PROJECTS</a></li>
+                <li><a href="Site_Contact_Me.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        
+        <div style="font-size:50px;">
+            YASH SHAH
+        </div>
+
+        <section>
+            <p class="fade_in_text">INNOVATOR, EXPLORER, CRITICAL THINKING, PHILOMATHIC</p>
+        
+        
+        <img src="/CV Photo.jpeg" alt="MY CV PIC" width="180"></img>  
+        </section>
+        <br>
+        <div class="element_container">
+            <p>
+                <i>An enthusiastic, passionate and diligent under graduate student currently pursuing Bachelor’s degree in 
+                Artificial Intelligence and Data Science who is looking for an opportunity to present his skills and 
+                provide an optimistic solution. Skillful in Data Analysis and persistent in amalgamating all the knowledge 
+                that is attained so far.</i>
+            </p>
+        </div>
+        
+
+
+        <article>
+
+        <section style="font-family: 'Cambria';width: 700px;">
+            <p style="font-size: 140%;">SKILLS</p>
+            <p style="font-size: 70%; padding:10px 30px;"> 
+                <u><b>Programming Languages:</b></u><br><br>
+                C, C++, Python, SQL<br><br>
+
+                <u><b>Software Used:</b></u><br><br>
+                Microsoft (PowerPoint, Word, Excel), 
+                CodeBlocks-IDE, AutoCAD, MySQL 
+                (Workbench and CLC), Unity 3D,
+                Anaconda, Jupyter Notebook, SPSS, 
+                ArcGIS Online, ArcMap, ArcGlobe, Balsamiq Wireframes,
+                Figma<br><br>
+
+                <u><b>Skills in Web Technologies:</b></u><br><br>
+                HTML, CSS, JavaScript<br><br>
+
+                <u><b>Skills in Data Science:</b></u><br><br>
+                Data Extraction, Data Cleaning, Data 
+                Manipulation, Data Visualization, Data 
+                Prediction, NumPy, SciPy, Pandas.<br><br>
+
+                <u><b>Skills in Spatial Analysis:</b></u><br><br>
+
+                Data Acquisition from file format (.csv, 
+                .xlsx), Digitizing Data, Cartography.
+            </p>
+           
+        </section>
+        
+        <section style="font-family: 'Cambria';width: 690px;">
+            <p style="font-size: 140%;">EDUCATION</p>
+            <p style="padding-top:65px;">
+            <table style="width: 20px;margin: auto auto;" >
+                <tr>
+                   <th>Course</th>
+                   <th>Institution</th>
+                   <th>Board/University</th>
+                   <th>Year</th>
+                   <th>Obtained</th>
+                </tr>
+
+                <tr>
+                    <td>B.E.</td>
+                    <td>Thadomal Shahani Engineering College</td>
+                    <td>Mumbai University</td>
+                    <td>2020-2024</td>
+                    <td>9.7</td>
+                </tr>
+                   
+                <tr>
+                    <td>12<sup>th</sup></td>
+                    <td>Shri T.P. Bhatia Junior College of Science</td>
+                    <td>HSC</td>
+                    <td>2018-2020</td>
+                    <td>90%</td>
+                </tr>
+
+                <tr>
+                    <td>10<sup>th</sup></td>
+                    <td>Universal High School</td>
+                    <td>ICSE</td>
+                    <td>2008-2018</td>
+                    <td>93.83%</td>
+                </tr>
+            </table>
+        </p>
+
+            
+        </section>
+
+        </article>
+
+        
+    </body>
+</html>

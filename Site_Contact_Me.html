@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            :root{
+                background-color: cornflowerblue;
+                
+            }
+
+            a{
+                color:white;
+                text-decoration: none;
+                
+            }
+
+            nav li{
+                margin:0 20px;
+                transition: font-size 1s;  
+            }
+
+            nav li:hover{
+            font-size:127%;
+                
+            }
+
+            .customize_background{
+                color:cornflowerblue;
+                background-color: black;
+                margin: 30px auto 0 auto;
+                padding:30px;
+                width: 425px;
+                height: auto;
+               
+                
+            }
+
+            label{
+                font-size:20px;
+    
+            }
+
+            input{
+                width:415px;
+                font-family: Calibri; 
+                font-weight: bolder; 
+                font-size: 20px;
+                background-color: rgb(255, 255, 255);
+            }
+
+           
+            
+            div label{
+                
+                margin-right:50px;
+            }
+           
+
+            div input{
+                height:10px;
+                width: 15px;
+                margin-top: 7px;
+            }
+
+            section section{
+                display:flex;
+                justify-content:space-evenly;
+                
+            }
+
+
+            .Submit_Button{
+                
+                height:35px;
+                width: 90px;
+                background-color: red;
+                color:white;
+                font-weight: bold;
+                box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(243, 237, 237, 0.19);
+            }
+
+            div button:hover{
+                color:rgb(229, 169, 74);
+            }
+
+            .Edit_Button{
+                height:35px;
+                width: 90px;
+                font-weight: bold;
+                box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+                border-color: black;
+            }
+
+
+            footer{
+                display:flex;
+                justify-content: center;
+            }
+
+            footer img{
+                margin:0 15px;
+            }
+            
+
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <nav style="color:white; font-size:111%; margin: 30px;">
+            <ul style="list-style: none; display:flex;justify-content:center">
+                <li><a href="Site_About_Me.html">ABOUT ME</a></li>
+                <li><a href="Site_Projects.html">PROJECTS</a></li>
+                <li><a href="Site_Contact_Me.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+
+        <header style="font-size:75px;color:white;text-align:center;margin-left: 0px; margin-top: 45px;">
+            CONTACT ME
+        </header>
+
+        <section class="customize_background">
+            <form>
+                <label>First Name:</label>
+                <br><br>
+                <input type="text">
+                <br><br>
+                <label>Last Name:</label>
+                <br><br>
+                <input type="text">
+                <br><br>
+                
+                <label>Email:</label>
+                <br><br>
+                <input type="email">
+                <br><br>
+                <label>Gender:</label>
+                <br><br>
+                <div>
+
+                    <input type="radio" name="gender" id="male" value="M">
+                    <label for="male"> Male</label>
+                    <input type="radio" name="gender" id="female" value="F">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="O" >
+                    <label for="other">Other</label>
+<!--
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender">
+                    <label>Other</label>
+-->
+                </div>
+                <br><br>
+                <label>Comments/Suggestions:</label>
+                <br><br>
+                <textarea name="message"  cols="45" rows="10" style="margin-right:10px;font-size: 15px;font-family: cursive;"></textarea>
+                <br><br><br><br>
+                <section>
+                <div>
+                <button type="button" class="Submit_Button" onclick="alert('Submitted Successfully!!')">Submit</button>
+                </div>
+                <div>
+                    <button type="reset" class="Edit_Button">Clear</button>
+                </div>
+                
+                </section>
+                
+            </form>
+
+        </section>
+
+        <br><br>
+        <hr style="border: 1px dashed black;">
+
+        <p style="color:white; font-size:30px; text-align:center">
+            Let's Connect!!
+        </p>
+
+        <footer>
+            <a href="mailto:yashmasteruniversal@gmail.com" target="_blank"><img src="icons/gmail_icon_black.png" alt="Send email"></a>
+            <a href="https://www.youtube.com/channel/UCXtOvNWUttEBIbbnPhjN9-w" target="_blank"><img src="icons/youtube_icon_black.png"></a>
+            <a href="https://www.linkedin.com/in/yash-shah-00816523b/" target="_blank"><img src="icons/linkedin_icon_black.png"></a>
+            <a href="https://github.com/YashShah06112002" target="_blank"><img src="icons/github_icon_black.png"></a>
+        </footer>
+
+        <br>
+        <p style="color:white; font-size:20px;text-align:center;">
+            Mumbai, Maharashtra, India<br>
+            © 2022 Yash Shah
+        </p>
+
+
+
+
+
+    </body>
+</html>
